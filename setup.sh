@@ -3,7 +3,7 @@
 if grep -Fq "ubuntu" /etc/os-release
 then
     echo "Detected Ubuntu or Ubuntu derivative"
-    source ./ubuntu/setup.sh
+    . ./ubuntu/setup.sh
     generic
 else
     echo "Unsupported Distro :("
@@ -11,7 +11,7 @@ else
 fi
 
 
-source ./generic/setup.sh
+. ./generic/setup.sh
 
 echo "Adding current user to docker group..."
 sudo usermod -aG docker $USER
