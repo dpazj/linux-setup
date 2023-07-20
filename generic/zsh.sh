@@ -16,7 +16,6 @@ then
     rm -rf  "$HOME"/.oh-my-zsh/custom/plugins/zsh-autosuggestions/.circleci
 fi
 
-# Syntax Highlighting
 if [ ! -d $HOME/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting ]
 then
     git clone --depth=1 https://github.com/zsh-users/zsh-syntax-highlighting.git $HOME/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting

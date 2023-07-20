@@ -1,7 +1,7 @@
 #!/bin/sh
 
 if grep -Fq "ubuntu" /etc/os-release; then
-    echo "Detected Ubuntu or Ubuntu derivative"
+    echo "Got Ubuntu"
     . ./ubuntu/setup.sh
 else
     echo "Unsupported Distro :("
