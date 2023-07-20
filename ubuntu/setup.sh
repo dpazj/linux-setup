@@ -1,9 +1,9 @@
 #!/bin/sh
 
-sudo apt-get update && sudo apt-get install -y && sudo apt-get autoremove -y
+sudo apt-get update && sudo apt-get install -y
 
 sudo apt-get install -y curl gpg apt-transport-https tmux gcc g++ make cmake wget build-essential autoconf autogen \
-    zsh nmap ca-certificates gnupg snap
+    zsh nmap ca-certificates gnupg snap libfuse2 valgrind python3-pip flameshot
 
 sudo snap install --classic code
 

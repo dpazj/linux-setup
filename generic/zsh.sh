@@ -28,3 +28,5 @@ cp ./configs/.zshrc ~/.zshrc
 rm ~/.zshrc_old
 
 cp ./configs/robbyrussell_custom.zsh-theme $HOME/.oh-my-zsh/themes/
+
+chsh -s $(which zsh)
