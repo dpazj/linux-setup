@@ -9,6 +9,7 @@ else
 fi
 
 . ./generic/setup.sh
+. ./desktop_environment/setup.sh
 
 echo "Adding current user to docker group..."
 sudo usermod -aG docker $USER
