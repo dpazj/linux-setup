@@ -115,3 +115,7 @@ source $ZSH/oh-my-zsh.sh
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 # [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
+if [ "$TMUX" = "" ]; then tmux; fi
+
+alias runelite="GDK_SCALE=2 GDK_DPI_SCALE=1.0 runelite"
