@@ -118,4 +118,4 @@ source $ZSH/oh-my-zsh.sh
 
 if [ "$TMUX" = "" ]; then tmux; fi
 
-alias runelite="GDK_SCALE=2 GDK_DPI_SCALE=1.0 runelite"
+alias runelite="flatpak run --env=GDK_SCALE=2 --env=GDK_DPI_SCALE=2.0 --user com.jagex.Launcher"
