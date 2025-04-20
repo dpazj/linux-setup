@@ -83,10 +83,7 @@ plugins=(
   web-search
   zsh-autosuggestions
   zsh-syntax-highlighting
-  tmux
 )
-
-ZSH_TMUX_AUTOSTART=true
 
 source $ZSH/oh-my-zsh.sh
 
