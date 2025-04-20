@@ -14,4 +14,5 @@ fi
 echo "Adding current user to docker group..."
 sudo usermod -aG docker $USER
 
-echo "Fin."
+echo "DONE - You may need to re-log for changes to take effect"
+
