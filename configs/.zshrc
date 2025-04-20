@@ -117,5 +117,3 @@ source $ZSH/oh-my-zsh.sh
 # [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 if [ "$TMUX" = "" ]; then tmux; fi
-
-alias runelite="flatpak run --env=GDK_SCALE=2 --env=GDK_DPI_SCALE=2.0 --user com.jagex.Launcher"
