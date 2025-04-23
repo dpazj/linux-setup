@@ -5,3 +5,6 @@
 
 #tmux
 . ./generic/tmux.sh
+
+#git
+. ./generic/git.sh
